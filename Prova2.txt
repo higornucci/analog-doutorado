@@ -1,0 +1,19 @@
+Sec Alunos    Secão de Exercícios
+
+3.1 Todos     Creative Problems Exercício 29*
+3.2 Nomes N-Z Creative Problems Exercício 25
+    Nomes G-M Cerative Problems Exercício 31*
+    Nomes A-F Creative Problems Exercício 33
+3.3 Nomes A-F Creative Problems Exercício 33
+    Nomes G-M Creative Problems Exercício 39*
+    Nomes N-Z Creative Problems Exercício 40
+3.4 Todos     Web Exercises     Exercício 5*
+3.5 Todos     Web Exercises     Exercício 13*
+
+Usar o mensurador de tempo StopWatch (Capítulo 1)
+Usar pelo menos 3 conjunto de dados (pequeno, médio, grande)
+Rodar pelo menos 10 vezes o programa para cada conjunto de teste.
+Obter a média e o desvio padrão das medidas de tempo.
+
+Descrever todos os detalhes do ambiente de execução.
+
