@@ -1,7 +1,10 @@
 package exercicio_3_1_29;
 
+import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.Stopwatch;
+import util.Constants;
 
 /******************************************************************************
  *  Compilation:  javac TestBinarySearchST.java
@@ -24,9 +27,11 @@ public class TestBinarySearchST {
     ***************************************************************************/
     public static void main(String[] args) {
         Stopwatch stopwatchTotal = new Stopwatch();
-        String test = "S E A R C H E X A M P L E"; 
-        String[] keys = test.split("\\s+");
+        String filePath = Constants.FILES_PATH + args[0];
+        In teste = new In(filePath);
+        String[] keys = teste.readAllStrings();
         int n = keys.length;
+        StdRandom.shuffle(keys);
 
         Stopwatch stopwatchConstrucaoArvore = new Stopwatch();
         BinarySearchST<String, Integer> st = new BinarySearchST<String, Integer>();
