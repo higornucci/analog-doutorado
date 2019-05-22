@@ -8,22 +8,17 @@ import util.Constants;
 
 public class Exercicio13 {
 
-    // Parameters example: 0: csv_file.txt
+    // Parameters example: 0: misspeling.txt
     //                     1: 0
     //                     2: 1
 
-    // Queries: arnold fzkey
-    //          rachel wrong
+    // Queries: abilityes
+    //          varity
 
     // Output expected:
-    // arnold 200
-    // dijkstra 10
-    // dwayne 201
-    // fenwick 202
+    // Você escreveu "abilityes", mas o correto é abilities
     //
-    // rene 5
-    // sedgewick 9
-    // wayne 10
+    // Você escreveu "varity", mas o correto é variety
 
     private void rangeLookupCSV(String[] args) {
         String filePath = Constants.FILES_PATH + args[0];
