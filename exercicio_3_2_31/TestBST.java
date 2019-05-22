@@ -6,23 +6,28 @@
 
 package exercicio_3_2_31;
 
+import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
+import edu.princeton.cs.algs4.Stopwatch;
+import util.Constants;
 
 public class TestBST {
     public static void main(String[] args) {
-        String test = "S E A R C H E X A M P L E";
-        String[] keys = test.split("\\s+");
+        Stopwatch stopwatch = new Stopwatch();
+        String filePath = Constants.FILES_PATH + args[0];
+        In teste = new In(filePath);
+        String[] keys = teste.readAllStrings();
         int n = keys.length;
+        StdRandom.shuffle(keys);
 
         BST<String, Integer> st = new BST<String, Integer>();
         for (int i = 0; i < n; i++)
             st.put(keys[i], i);
         for (String s : st.keys())
             StdOut.println(s + " " + st.get(s));
-        if(st.isBST())
-            StdOut.println("É BST");
-        else
-            StdOut.println("Não é BST");
+
+        StdOut.println(st.isBST(st.root) + " Expected: true");
 
 
         BST<String, Integer> notBST = new BST<String, Integer>();
@@ -35,10 +40,8 @@ public class TestBST {
         notBST.root.right = new BST().new Node(24, "Value 24", 2);
         notBST.root.right.left = new BST().new Node(21, "Value 21", 1);
 
-        if(notBST.isBST())
-            StdOut.println("É BST");
-        else
-            StdOut.println("Não é BST");
+        StdOut.println(notBST.isBST(notBST.root) + " Expected: false");
+        System.out.println("Tempo total : " + stopwatch.elapsedTime() + " segundos.");
 
     }
 }
