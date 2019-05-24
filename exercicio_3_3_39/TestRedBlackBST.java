@@ -20,25 +20,16 @@ public class TestRedBlackBST {
         for (String s : redBlackBST.keys())
             StdOut.println(s + " " + redBlackBST.get(s));
 
-        RedBlackBST<String, Integer> testDeleteTheMinimum = new RedBlackBST<String, Integer>();
-        testDeleteTheMinimum.put("10", 10);
-        testDeleteTheMinimum.put("4", 4);
-        testDeleteTheMinimum.put("6", 6);
-        testDeleteTheMinimum.put("1", 1);
-        testDeleteTheMinimum.put("2", 2);
-        testDeleteTheMinimum.put("15", 15);
-        testDeleteTheMinimum.put("12", 12);
+        while (!redBlackBST.isEmpty()) {
 
-        while (!testDeleteTheMinimum.isEmpty()) {
-
-            for(String key : testDeleteTheMinimum.keys()) {
+            for(String key : redBlackBST.keys()) {
                 StdOut.println(key);
             }
 
             StdOut.println();
 
             StdOut.println("Delete min");
-            testDeleteTheMinimum.deleteMin();
+            redBlackBST.deleteMin();
         }
 
     }
