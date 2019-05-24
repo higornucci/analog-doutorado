@@ -26,7 +26,6 @@ public class TestBinarySearchST {
     *  Unit test client.
     ***************************************************************************/
     public static void main(String[] args) {
-        Stopwatch stopwatchTotal = new Stopwatch();
         String filePath = Constants.FILES_PATH + args[0];
         In teste = new In(filePath);
         String[] keys = teste.readAllStrings();
@@ -39,7 +38,6 @@ public class TestBinarySearchST {
             st.put(keys[i], i);
         System.out.println("Tempo total para construção da árvore : " + stopwatchConstrucaoArvore.elapsedTime() + " segundos.");
 
-        StdOut.println("size = " + st.size());
         Stopwatch stopwatchMin = new Stopwatch();
         StdOut.println("min  = " + st.min());
         System.out.println("Tempo total min() : " + stopwatchMin.elapsedTime() + " segundos.");
@@ -50,47 +48,37 @@ public class TestBinarySearchST {
 
 
         // print keys in order using keys()
+        StdOut.println("Testing keys()");
         Stopwatch stopwatchKeys = new Stopwatch();
         st.keys();
         System.out.println("Tempo total keys() : " + stopwatchKeys.elapsedTime() + " segundos.");
-        StdOut.println("Testing keys()");
         StdOut.println("--------------------------------");
-        for (String s : st.keys())
-            StdOut.println(s + " " + st.get(s));
         StdOut.println();
 
 
         // print keys in order using select
-        Stopwatch stopwatchSelect = new Stopwatch();
         StdOut.println("Testing select");
-        StdOut.println("--------------------------------");
-        for (int i = 0; i <= st.size(); i++)
-            StdOut.println(i + " " + st.select(i));
+        Stopwatch stopwatchSelect = new Stopwatch();
+        st.select(56);
         System.out.println("Tempo total select() : " + stopwatchSelect.elapsedTime() + " segundos.");
+        StdOut.println("--------------------------------");
         StdOut.println();
 
         // test rank, floor, ceiling
-        Stopwatch stopwatchCeil = new Stopwatch();
         StdOut.println("key rank floor ceil");
-        StdOut.println("-------------------");
-        for (char i = 'A'; i <= 'Z'; i++) {
-            String s = i + "";
-            StdOut.printf("%2s %4d %4s %4s\n", s, st.rank(s), st.floor(s), st.ceiling(s));
-        }
+        String s = "A";
+        Stopwatch stopwatchCeil = new Stopwatch();
+        st.ceiling(s);
         System.out.println("Tempo total ceiling() : " + stopwatchCeil.elapsedTime() + " segundos.");
         StdOut.println();
-
-        // test range search and range count
-        String[] from = { "A", "Z", "X", "0", "B", "C" };
-        String[] to   = { "Z", "A", "X", "Z", "G", "L" };
-        StdOut.println("range search");
+        Stopwatch stopwatchRank = new Stopwatch();
+        st.rank(s);
+        System.out.println("Tempo total rank() : " + stopwatchRank.elapsedTime() + " segundos.");
+        StdOut.println();
+        Stopwatch stopwatchFloor = new Stopwatch();
+        st.floor(s);
+        System.out.println("Tempo total floor() : " + stopwatchFloor.elapsedTime() + " segundos.");
         StdOut.println("-------------------");
-        for (int i = 0; i < from.length; i++) {
-            StdOut.printf("%s-%s (%2d) : ", from[i], to[i], st.size(from[i], to[i]));
-            for (String s : st.keys(from[i], to[i]))
-                StdOut.print(s + " ");
-            StdOut.println();
-        }
         StdOut.println();
 
 
@@ -100,34 +88,6 @@ public class TestBinarySearchST {
         Stopwatch stopwatchDeleteMax = new Stopwatch();
         st.deleteMax();
         System.out.println("Tempo total deleteMax() : " + stopwatchDeleteMax.elapsedTime() + " segundos.");
-        // delete the smallest keys
-        for (int i = 0; i < st.size() / 2; i++) {
-            st.deleteMin();
-        }
-        StdOut.println("After deleting the smallest " + st.size() / 2 + " keys");
-        StdOut.println("--------------------------------");
-        for (String s : st.keys())
-            StdOut.println(s + " " + st.get(s));
-        StdOut.println();
-
-        // delete all the remaining keys
-        while (!st.isEmpty()) {
-            st.delete(st.select(st.size() / 2));
-        }
-        StdOut.println("After deleting the remaining keys");
-        StdOut.println("--------------------------------");
-        for (String s : st.keys()) 
-            StdOut.println(s + " " + st.get(s));
-        StdOut.println();
-
-        StdOut.println("After adding back N keys");
-        StdOut.println("--------------------------------");
-        for (int i = 0; i < n; i++) 
-            st.put(keys[i], i); 
-        for (String s : st.keys()) 
-            StdOut.println(s + " " + st.get(s));
-        StdOut.println();
-        System.out.println("Tempo total : " + stopwatchTotal.elapsedTime() + " segundos.");
 
     }
 }

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Adição dos conjuntos de dados">
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Melhorias nos testes do primeiro problema">
+      <change afterPath="$PROJECT_DIR$/data/32Kints.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercicio_3_1_29/TestBinarySearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_3_1_29/TestBinarySearchST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_3_3_39/TestRedBlackBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_3_3_39/TestRedBlackBST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/lift/" />
@@ -43,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/data/1Kints.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -51,14 +51,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercicio_3_1_29/TestBinarySearchST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="97" column="46" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
+            <state relative-caret-position="30">
+              <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1275#1292#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/32Kints.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -275,7 +280,7 @@
     <configuration name="TestBinarySearchST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio_3_1_29.TestBinarySearchST" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="1Kints.txt" />
+      <option name="PROGRAM_PARAMETERS" value="32Kints.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exercicio_3_1_29.*" />
@@ -332,7 +337,7 @@
       <workItem from="1558528370207" duration="1454000" />
       <workItem from="1558530993933" duration="10623000" />
       <workItem from="1558630267636" duration="2179000" />
-      <workItem from="1558694998978" duration="3041000" />
+      <workItem from="1558694998978" duration="5781000" />
     </task>
     <task id="LOCAL-00001" summary="Exercício 3.3.39">
       <created>1558463534334</created>
@@ -369,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558550541849</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Melhorias nos testes do primeiro problema">
+      <created>1558701291138</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558701291139</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27012000" />
+    <option name="totallyTimeSpent" value="29752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,7 +409,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839914" weight="0.8369196" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49839914" visible="true" weight="0.8369196" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997735" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,7 +440,8 @@
     <MESSAGE value="Exercício 3.3.39" />
     <MESSAGE value="Exercício 3.5.13 correcting misspeling" />
     <MESSAGE value="Adição dos conjuntos de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adição dos conjuntos de dados" />
+    <MESSAGE value="Melhorias nos testes do primeiro problema" />
+    <option name="LAST_COMMIT_MESSAGE" value="Melhorias nos testes do primeiro problema" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -594,7 +607,7 @@
     <entry file="file://$PROJECT_DIR$/data/1Kints.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -608,10 +621,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/32Kints.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercicio_3_1_29/TestBinarySearchST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="97" column="46" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
+        <state relative-caret-position="30">
+          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1275#1292#0" expanded="true" />
