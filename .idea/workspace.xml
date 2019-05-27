@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Inclusão de novas base de dados">
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Resolução do exercício 3.3.39">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_3_3_39/TestRedBlackBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_3_3_39/TestRedBlackBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/misspeling.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/misspelingMedium.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio_3_5_13/Exercicio13.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_3_5_13/Exercicio13.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/lift/" />
@@ -38,11 +39,50 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercicio_3_5_13/Exercicio13.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="45" column="48" lean-forward="true" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/misspelingTiny.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="766">
+              <caret line="1138" column="13" selection-start-line="1138" selection-end-line="1138" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/misspelingLarge.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="92524" column="21" lean-forward="true" selection-start-line="92524" selection-start-column="21" selection-end-line="92524" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/misspelingMedium.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="796">
+              <caret line="36958" column="12" selection-start-line="36958" selection-start-column="12" selection-end-line="36958" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercicio_3_3_39/TestRedBlackBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="315">
+              <caret line="21" column="109" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="109" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#601#618#0" expanded="true" />
@@ -89,6 +129,11 @@
       <find>key</find>
       <find>keys(</find>
       <find>deleteM</find>
+      <find>\</find>
+      <find>\n</find>
+      <find>([a-zA-Z])\n</find>
+      <find>$([a-zA-Z])\n</find>
+      <find>$</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
@@ -117,12 +162,16 @@
         <option value="$PROJECT_DIR$/exercicio_3_5_13/misspeling.txt" />
         <option value="$PROJECT_DIR$/util/Constants.java" />
         <option value="$PROJECT_DIR$/data/misspeling.txt" />
-        <option value="$PROJECT_DIR$/exercicio_3_5_13/Exercicio13.java" />
         <option value="$PROJECT_DIR$/exercicio_3_2_31/BST.java" />
         <option value="$PROJECT_DIR$/util/Exec3.java" />
         <option value="$PROJECT_DIR$/exercicio_3_1_29/TestBinarySearchST.java" />
         <option value="$PROJECT_DIR$/exercicio_3_2_31/TestBST.java" />
         <option value="$PROJECT_DIR$/exercicio_3_3_39/TestRedBlackBST.java" />
+        <option value="$PROJECT_DIR$/data/misspelingTiny.dat" />
+        <option value="$PROJECT_DIR$/data/misspelingLarge.dat" />
+        <option value="$PROJECT_DIR$/exercicio_3_5_13/Exercicio13.java" />
+        <option value="$PROJECT_DIR$/data/misspelingLarge.txt" />
+        <option value="$PROJECT_DIR$/data/misspelingMedium.txt" />
       </list>
     </option>
   </component>
@@ -219,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestRedBlackBST">
+  <component name="RunManager" selected="Application.Exercicio13">
     <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio_3_2_31.BST" />
       <module name="Algorithms, Part I" />
@@ -249,7 +298,7 @@
     <configuration name="Exercicio13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio_3_5_13.Exercicio13" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="misspeling.txt 0 1" />
+      <option name="PROGRAM_PARAMETERS" value="misspelingTiny.txt 0 1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exercicio_3_5_13.*" />
@@ -312,10 +361,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercicio13" />
         <item itemvalue="Application.TestRedBlackBST" />
         <item itemvalue="Application.TestBST" />
         <item itemvalue="Application.TestBinarySearchST" />
-        <item itemvalue="Application.Exercicio13" />
         <item itemvalue="Application.BST" />
       </list>
     </recent_temporary>
@@ -334,7 +383,7 @@
       <workItem from="1558528370207" duration="1454000" />
       <workItem from="1558530993933" duration="10623000" />
       <workItem from="1558630267636" duration="2179000" />
-      <workItem from="1558694998978" duration="15579000" />
+      <workItem from="1558694998978" duration="19173000" />
     </task>
     <task id="LOCAL-00001" summary="Exercício 3.3.39">
       <created>1558463534334</created>
@@ -399,11 +448,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558958766395</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Resolução do exercício 3.3.39">
+      <created>1558962589753</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558962589753</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39550000" />
+    <option name="totallyTimeSpent" value="43144000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,7 +482,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295583" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839914" weight="0.8369196" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997735" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -462,7 +518,8 @@
     <MESSAGE value="Finalização do exercício 3.1.29" />
     <MESSAGE value="Finalização do exercício 3.2.21" />
     <MESSAGE value="Inclusão de novas base de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inclusão de novas base de dados" />
+    <MESSAGE value="Resolução do exercício 3.3.39" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolução do exercício 3.3.39" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -531,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/misspeling.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="4134" column="6" selection-start-line="4134" selection-end-line="4134" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/tinyFN.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -549,16 +599,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/tinyT.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercicio_3_5_13/Exercicio13.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/.lift/algs4.jar!/edu/princeton/cs/algs4/Stopwatch.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -647,12 +687,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercicio_3_3_39/TestRedBlackBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="315">
+          <caret line="21" column="109" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="109" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#601#618#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercicio_3_5_13/Exercicio13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="45" column="48" lean-forward="true" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/misspelingLarge.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="92524" column="21" lean-forward="true" selection-start-line="92524" selection-start-column="21" selection-end-line="92524" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/misspelingMedium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="36958" column="12" selection-start-line="36958" selection-start-column="12" selection-end-line="36958" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/misspelingTiny.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="1138" column="13" selection-start-line="1138" selection-end-line="1138" selection-end-column="13" />
         </state>
       </provider>
     </entry>

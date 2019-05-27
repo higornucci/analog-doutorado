@@ -8,7 +8,7 @@ import util.Constants;
 
 public class Exercicio13 {
 
-    // Parameters example: 0: misspeling.txt
+    // Parameters example: 0: misspelingMedium.txt
     //                     1: 0
     //                     2: 1
 
@@ -21,6 +21,7 @@ public class Exercicio13 {
     // Você escreveu "varity", mas o correto é variety
 
     private void rangeLookupCSV(String[] args) {
+        Stopwatch stopwatch = new Stopwatch();
         String filePath = Constants.FILES_PATH + args[0];
 
         In in = new In(filePath);
@@ -37,8 +38,10 @@ public class Exercicio13 {
 
             symbolTable.put(key, value);
         }
+        System.out.println("Tempo total para construir a árvore: " + stopwatch.elapsedTime() + " segundos.");
 
-        String palavras[] = {"abilityes", "varity"};
+        Stopwatch stopwatchGet = new Stopwatch();
+        String palavras[] = {"abilityes", "decompositing"};
         for(String palavra : palavras) {
             if (symbolTable.contains(palavra)) {
                 StdOut.print("Você escreveu \"" + palavra + "\", mas o correto é ");
@@ -48,6 +51,7 @@ public class Exercicio13 {
             }
             StdOut.println();
         }
+        System.out.println("Tempo total para construir a árvore: " + stopwatchGet.elapsedTime() + " segundos.");
     }
 
     public static void main(String[] args) {
