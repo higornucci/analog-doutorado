@@ -3,11 +3,13 @@ package exercicio_3_3_39;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
+import edu.princeton.cs.algs4.Stopwatch;
 import util.Constants;
 
 public class TestRedBlackBST {
 
     public static void main(String[] args) {
+        Stopwatch stopwatch = new Stopwatch();
         String filePath = Constants.FILES_PATH + args[0];
         In teste = new In(filePath);
         String[] keys = teste.readAllStrings();
@@ -17,20 +19,11 @@ public class TestRedBlackBST {
         RedBlackBST<String, Integer> redBlackBST = new RedBlackBST<String, Integer>();
         for (int i = 0; i < n; i++)
             redBlackBST.put(keys[i], i);
-        for (String s : redBlackBST.keys())
-            StdOut.println(s + " " + redBlackBST.get(s));
+        System.out.println("Tempo total para construir a árvore: " + stopwatch.elapsedTime() + " segundos.");
 
-        while (!redBlackBST.isEmpty()) {
-
-            for(String key : redBlackBST.keys()) {
-                StdOut.println(key);
-            }
-
-            StdOut.println();
-
-            StdOut.println("Delete min");
-            redBlackBST.deleteMin();
-        }
-
+        Stopwatch stopwatchDeleteMin = new Stopwatch();
+        StdOut.println("Delete min");
+        redBlackBST.deleteMin();
+        System.out.println("Tempo total deleteMin(): " + stopwatchDeleteMin.elapsedTime() + " segundos.");
     }
 }
