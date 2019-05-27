@@ -51,7 +51,7 @@ public class Exercicio13 {
             }
             StdOut.println();
         }
-        System.out.println("Tempo total para construir a árvore: " + stopwatchGet.elapsedTime() + " segundos.");
+        System.out.println("Tempo total para corrigir: " + stopwatchGet.elapsedTime() + " segundos.");
     }
 
     public static void main(String[] args) {
