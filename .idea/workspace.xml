@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Melhorias nos testes do primeiro problema">
-      <change afterPath="$PROJECT_DIR$/data/32Kints.txt" afterDir="false" />
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Finalização do exercício 3.1.29">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_3_1_29/TestBinarySearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_3_1_29/TestBinarySearchST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio_3_2_31/TestBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_3_2_31/TestBST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/lift/" />
@@ -40,30 +39,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/1Kints.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercicio_3_1_29/TestBinarySearchST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+            <state relative-caret-position="270">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1275#1292#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/32Kints.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/exercicio_3_1_29/BinarySearchST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercicio_3_2_31/TestBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercicio_3_2_31/BST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#9080#9081#0" expanded="true" />
+                <element signature="e#9126#9127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -123,9 +142,9 @@
         <option value="$PROJECT_DIR$/exercicio_3_5_13/Exercicio13.java" />
         <option value="$PROJECT_DIR$/exercicio_3_2_31/BST.java" />
         <option value="$PROJECT_DIR$/util/Exec3.java" />
-        <option value="$PROJECT_DIR$/exercicio_3_2_31/TestBST.java" />
         <option value="$PROJECT_DIR$/exercicio_3_3_39/TestRedBlackBST.java" />
         <option value="$PROJECT_DIR$/exercicio_3_1_29/TestBinarySearchST.java" />
+        <option value="$PROJECT_DIR$/exercicio_3_2_31/TestBST.java" />
       </list>
     </option>
   </component>
@@ -222,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestBinarySearchST">
+  <component name="RunManager" selected="Application.TestBST">
     <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio_3_2_31.BST" />
       <module name="Algorithms, Part I" />
@@ -266,7 +285,7 @@
     <configuration name="TestBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio_3_2_31.TestBST" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="16Kints.txt" />
+      <option name="PROGRAM_PARAMETERS" value="dickens.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exercicio_3_2_31.*" />
@@ -280,7 +299,7 @@
     <configuration name="TestBinarySearchST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio_3_1_29.TestBinarySearchST" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="32Kints.txt" />
+      <option name="PROGRAM_PARAMETERS" value="dickens.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exercicio_3_1_29.*" />
@@ -315,9 +334,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBST" />
         <item itemvalue="Application.TestBinarySearchST" />
         <item itemvalue="Application.TestRedBlackBST" />
-        <item itemvalue="Application.TestBST" />
         <item itemvalue="Application.Exercicio13" />
         <item itemvalue="Application.BST" />
       </list>
@@ -337,7 +356,7 @@
       <workItem from="1558528370207" duration="1454000" />
       <workItem from="1558530993933" duration="10623000" />
       <workItem from="1558630267636" duration="2179000" />
-      <workItem from="1558694998978" duration="5781000" />
+      <workItem from="1558694998978" duration="12306000" />
     </task>
     <task id="LOCAL-00001" summary="Exercício 3.3.39">
       <created>1558463534334</created>
@@ -381,11 +400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558701291139</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finalização do exercício 3.1.29">
+      <created>1558704218056</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558704218056</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29752000" />
+    <option name="totallyTimeSpent" value="36277000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,7 +435,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49839914" visible="true" weight="0.8369196" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839914" weight="0.8369196" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997735" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,7 +467,8 @@
     <MESSAGE value="Exercício 3.5.13 correcting misspeling" />
     <MESSAGE value="Adição dos conjuntos de dados" />
     <MESSAGE value="Melhorias nos testes do primeiro problema" />
-    <option name="LAST_COMMIT_MESSAGE" value="Melhorias nos testes do primeiro problema" />
+    <MESSAGE value="Finalização do exercício 3.1.29" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalização do exercício 3.1.29" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -527,27 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercicio_3_1_29/BinarySearchST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="240" selection-start-line="240" selection-end-line="240" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercicio_3_2_31/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="294" selection-start-line="294" selection-end-line="294" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9098#9099#0" expanded="true" />
-            <element signature="e#9144#9145#0" expanded="true" />
-            <element signature="e#9220#9221#0" expanded="true" />
-            <element signature="e#9266#9267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/tinyFN.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -559,9 +565,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/tinyT.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/largeT.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/util/Exec3.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -580,34 +583,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercicio_3_2_31/TestBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Prova2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/.lift/algs4.jar!/edu/princeton/cs/algs4/Stopwatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/1Kints.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -624,13 +603,60 @@
     <entry file="file://$PROJECT_DIR$/data/32Kints.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/1Kints.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/largeT.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-2132594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prova2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercicio_3_1_29/TestBinarySearchST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1275#1292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercicio_3_2_31/TestBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercicio_3_1_29/BinarySearchST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercicio_3_2_31/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9080#9081#0" expanded="true" />
+            <element signature="e#9126#9127#0" expanded="true" />
           </folding>
         </state>
       </provider>

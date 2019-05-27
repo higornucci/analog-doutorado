@@ -24,10 +24,11 @@ public class TestBST {
         BST<String, Integer> st = new BST<String, Integer>();
         for (int i = 0; i < n; i++)
             st.put(keys[i], i);
-        for (String s : st.keys())
-            StdOut.println(s + " " + st.get(s));
+        System.out.println("Tempo total construção da árvore : " + stopwatch.elapsedTime() + " segundos.");
 
+        Stopwatch stopwatchIsBST = new Stopwatch();
         StdOut.println(st.isBST(st.root) + " Expected: true");
+        System.out.println("Tempo total para saber se um nó é root de ums BST : " + stopwatchIsBST.elapsedTime() + " segundos.");
 
 
         BST<String, Integer> notBST = new BST<String, Integer>();
