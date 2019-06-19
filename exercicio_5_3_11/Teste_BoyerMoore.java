@@ -1,6 +1,7 @@
 package exercicio_5_3_11;
 
 import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.Stopwatch;
 import util.ArrayGenerator;
 
 public class Teste_BoyerMoore {
@@ -65,11 +66,14 @@ public class Teste_BoyerMoore {
 
     // Parameters example: 10 100000 10
     public static void main(String[] args) {
+        Stopwatch stopwatchSearch = new Stopwatch();
         int patternLength = Integer.parseInt(args[0]);
         int textLength = Integer.parseInt(args[1]);
         int experiments = Integer.parseInt(args[2]);
 
         new Teste_BoyerMoore().doExperiment(patternLength, textLength, experiments);
+        StdOut.printf("Tempo total para procurar: %.3f segundos\n",
+                      stopwatchSearch.elapsedTime());
     }
 
 }

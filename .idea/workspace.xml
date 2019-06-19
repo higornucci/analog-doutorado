@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Resolução do exercício 3.5.13 e inclusão de dataset de misspelling words">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_4_4_8/Exercise8.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_4_4_8/Exercise8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio_5_3_11/Teste_BoyerMoore.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_5_3_11/Teste_BoyerMoore.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/lift/" />
@@ -35,17 +35,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Prova3.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="315">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercicio_4_4_8/Exercise8.java">
+        <entry file="file://$PROJECT_DIR$/exercicio_5_3_11/Teste_BoyerMoore.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+              <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,13 +133,13 @@
         <option value="$PROJECT_DIR$/exercicio_5_3_11/Queue.java" />
         <option value="$PROJECT_DIR$/exercicio_5_3_11/BoyerMoore.java" />
         <option value="$PROJECT_DIR$/exercicio_5_3_11/Exercise38_BoyerMooreForRandomText.java" />
-        <option value="$PROJECT_DIR$/exercicio_5_3_11/Teste_BoyerMoore.java" />
         <option value="$PROJECT_DIR$/exercicio_5_5/LZW.java" />
         <option value="$PROJECT_DIR$/exercicio_5_5/Huffman.java" />
         <option value="$PROJECT_DIR$/exercicio_5_3_15/Manacher.java" />
         <option value="$PROJECT_DIR$/util/Constants.java" />
         <option value="$PROJECT_DIR$/exercicio_4_3_43/Teste_BoruvkasMST.java" />
         <option value="$PROJECT_DIR$/exercicio_4_4_8/Exercise8.java" />
+        <option value="$PROJECT_DIR$/exercicio_5_3_11/Teste_BoyerMoore.java" />
       </list>
     </option>
   </component>
@@ -174,6 +174,11 @@
               <item name="Percolation" type="b2602c69:ProjectViewProjectNode" />
               <item name="analog-doutorado" type="462c0819:PsiDirectoryNode" />
               <item name="exercicio_4_4_8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Percolation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="analog-doutorado" type="462c0819:PsiDirectoryNode" />
+              <item name="exercicio_5_3_11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercise8">
+  <component name="RunManager" selected="Application.Teste_BoyerMoore">
     <configuration name="BinarySearchST" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio_3_1_29.BinarySearchST" />
       <module name="Algorithms, Part I" />
@@ -309,9 +314,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Teste_BoyerMoore" />
         <item itemvalue="Application.Exercise8" />
         <item itemvalue="Application.Teste_BoruvkasMST" />
-        <item itemvalue="Application.Teste_BoyerMoore" />
         <item itemvalue="Application.Exercicio05" />
         <item itemvalue="Application.Exercicio13" />
       </list>
@@ -334,7 +339,7 @@
       <workItem from="1558694998978" duration="22360000" />
       <workItem from="1558978081024" duration="4303000" />
       <workItem from="1560941804217" duration="28000" />
-      <workItem from="1560941999267" duration="15021000" />
+      <workItem from="1560941999267" duration="17130000" />
     </task>
     <task id="LOCAL-00001" summary="Exercício 3.3.39">
       <created>1558463534334</created>
@@ -424,7 +429,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65683000" />
+    <option name="totallyTimeSpent" value="67792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -506,7 +511,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exercicio_3_2_31/PerfectBalance.java" />
     <entry file="file://$PROJECT_DIR$/exercicio_3_2_31/BinarySearchTree.java" />
     <entry file="file://$PROJECT_DIR$/exercicio_3_2_31/Certification.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -758,13 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercicio_5_3_11/BoyerMoore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1094">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercicio_5_5/LZW.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -789,16 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercicio_5_3_11/Teste_BoyerMoore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,17 +830,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/exercicio_5_3_11/BoyerMoore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#3479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercicio_5_3_11/BoyerMoore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Prova3.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="315">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercicio_4_4_8/Exercise8.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="52" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercicio_5_3_11/Teste_BoyerMoore.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
