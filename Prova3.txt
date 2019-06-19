@@ -1,0 +1,35 @@
+Livro Sedgewick
+
+Capítulo 4.3
+Experiments
+43 Execute o programa para conjuntos de vários tamnhos. Utilize um
+   gerador de grafos. Faça gráficos com os tempos obtidos
+
+Web Exercices
+8 Execute o programa para conjuntos de vários tamnhos. Utilize um
+  gerador de grafos. Faça gráficos com os tempos obtidos.
+
+Capítulo 4.4.
+8 O diâmetro de um digrafo é o tamanho do maior comprimento do caminho
+  mínimo conectando dois vértices. Projete e implemente um cliente do
+  DijkstraSP para encontrar o diâmetro de um dado
+  EdgeWeightedDigraph com peso das arestas não negativos. Teste o
+  programa com o conjuto de dados deo Exercício 7 (Web Exercices) 
+
+Capítulo 5.3
+
+Exercices
+11 Execute o programa para conjuntos de vários tamanhos e faça um
+   gráfico com os tempos.
+15 Faça duas implementações, uma usando árevore de sufixos e outra
+   usando a sugestão do algorimo de Manacher. Execute o programa
+   para conjuntos de vários tamanhos e compare (usando curvas) o 
+   tempo de execução.
+
+Capítulo 5.5
+
+   Implemente os algoritmos para compressão de texto usando
+   Códigos de Huffman e compressão LZW. Teste as implmentações
+   com conjutos de vários tamanhos. Faça uma avaliação da taxa de
+   compressão para cada algoritmo.
+
