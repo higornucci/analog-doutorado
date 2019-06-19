@@ -30,11 +30,10 @@ public class Exercise8 {
         String filePath = Constants.FILES_PATH + args[0];
         In arquivo = new In(filePath);
 
-        EdgeWeightedDigraph edgeWeightedDigraph = new EdgeWeightedDigraph(8);
+        EdgeWeightedDigraph edgeWeightedDigraph = new EdgeWeightedDigraph(arquivo);
         StdOut.println();
         StdOut.printf("Tempo total para construir: %.3f segundos\n",
                       stopwatchBuild.elapsedTime());
-        StdOut.println();
         StdOut.println();
 
         Stopwatch stopwatchDiametro = new Stopwatch();
