@@ -84,15 +84,21 @@ public class Teste_BoruvkasMST {
         In arquivo = new In(filePath);
 
         EdgeWeightedGraph edgeWeightedGraph = new EdgeWeightedGraph(arquivo);
-        StdOut.printf("Tempo total para construir: %.3f segundos", stopwatchBuild.elapsedTime());
+        StdOut.println();
+        StdOut.printf("Tempo total para construir: %.3f segundos\n",
+                      stopwatchBuild.elapsedTime());
+        StdOut.println();
+        StdOut.println();
 
         Stopwatch stopwatchEdges = new Stopwatch();
         Teste_BoruvkasMST.BoruvkaMST boruvkaMST =
                 new Teste_BoruvkasMST().new BoruvkaMST(edgeWeightedGraph);
-        for(Edge edge : boruvkaMST.edges()) {
-            StdOut.println(edge);
+        for (Edge edge : boruvkaMST.edges()) {
+            StdOut.print();
         }
-        StdOut.printf("Tempo total para construir vertices: %.3f segundos", stopwatchEdges.elapsedTime());
+        StdOut.println();
+        StdOut.printf("Tempo total para construir vertices: %.3f segundos\n",
+                      stopwatchEdges.elapsedTime());
     }
 
 }

@@ -7,7 +7,7 @@
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Resolução do exercício 3.5.13 e inclusão de dataset de misspelling words">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercicio_4_3_43/Teste_BoruvkasMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_4_3_43/Teste_BoruvkasMST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio_4_4_8/Exercise8.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_4_4_8/Exercise8.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/lift/" />
@@ -37,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/Prova3.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="367">
-              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -45,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercicio_4_3_43/Teste_BoruvkasMST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="82" column="41" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
+            <state relative-caret-position="721">
+              <caret line="100" column="52" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="100" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,10 +55,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/util/Constants.java">
+        <entry file="file://$PROJECT_DIR$/exercicio_4_4_8/Exercise8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+            <state relative-caret-position="630">
+              <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/.lift/algs4.jar!/edu/princeton/cs/algs4/GraphGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="628">
+              <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -94,6 +106,7 @@
       <find>([a-zA-Z])\n</find>
       <find>$([a-zA-Z])\n</find>
       <find>$</find>
+      <find>tempo</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
@@ -140,15 +153,15 @@
         <option value="$PROJECT_DIR$/exercicio_4_3_43/UnionFind.java" />
         <option value="$PROJECT_DIR$/exercicio_5_3_11/SubstringSearch.java" />
         <option value="$PROJECT_DIR$/exercicio_5_3_11/Queue.java" />
-        <option value="$PROJECT_DIR$/exercicio_4_4_8/Exercise8.java" />
         <option value="$PROJECT_DIR$/exercicio_5_3_11/BoyerMoore.java" />
         <option value="$PROJECT_DIR$/exercicio_5_3_11/Exercise38_BoyerMooreForRandomText.java" />
         <option value="$PROJECT_DIR$/exercicio_5_3_11/Teste_BoyerMoore.java" />
         <option value="$PROJECT_DIR$/exercicio_5_5/LZW.java" />
         <option value="$PROJECT_DIR$/exercicio_5_5/Huffman.java" />
         <option value="$PROJECT_DIR$/exercicio_5_3_15/Manacher.java" />
-        <option value="$PROJECT_DIR$/exercicio_4_3_43/Teste_BoruvkasMST.java" />
         <option value="$PROJECT_DIR$/util/Constants.java" />
+        <option value="$PROJECT_DIR$/exercicio_4_3_43/Teste_BoruvkasMST.java" />
+        <option value="$PROJECT_DIR$/exercicio_4_4_8/Exercise8.java" />
       </list>
     </option>
   </component>
@@ -178,11 +191,6 @@
             <path>
               <item name="Percolation" type="b2602c69:ProjectViewProjectNode" />
               <item name="analog-doutorado" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Percolation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="analog-doutorado" type="462c0819:PsiDirectoryNode" />
-              <item name="exercicio_4_3_43" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Percolation" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Teste_BoruvkasMST">
+  <component name="RunManager" selected="Application.Exercise8">
     <configuration name="BinarySearchST" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio_3_1_29.BinarySearchST" />
       <module name="Algorithms, Part I" />
@@ -279,6 +287,7 @@
     <configuration name="Exercise8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio_4_4_8.Exercise8" />
       <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="rome99.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exercicio_4_4_8.*" />
@@ -292,7 +301,7 @@
     <configuration name="Teste_BoruvkasMST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio_4_3_43.Teste_BoruvkasMST" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="rome99.txt" />
+      <option name="PROGRAM_PARAMETERS" value="NYC.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exercicio_4_3_43.*" />
@@ -327,9 +336,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise8" />
         <item itemvalue="Application.Teste_BoruvkasMST" />
         <item itemvalue="Application.Teste_BoyerMoore" />
-        <item itemvalue="Application.Exercise8" />
         <item itemvalue="Application.Exercicio05" />
         <item itemvalue="Application.Exercicio13" />
       </list>
@@ -352,7 +361,7 @@
       <workItem from="1558694998978" duration="22360000" />
       <workItem from="1558978081024" duration="4303000" />
       <workItem from="1560941804217" duration="28000" />
-      <workItem from="1560941999267" duration="8535000" />
+      <workItem from="1560941999267" duration="12186000" />
     </task>
     <task id="LOCAL-00001" summary="Exercício 3.3.39">
       <created>1558463534334</created>
@@ -442,7 +451,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59197000" />
+    <option name="totallyTimeSpent" value="62848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,16 +534,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exercicio_3_2_25/Exercise25_PerfectBalance.java" />
-    <entry file="file://$PROJECT_DIR$/exercicio_3_1_29/Exercise29_TestClient.java" />
-    <entry file="file://$PROJECT_DIR$/exercicio_3_1_29/BinarySearchSymbolTable.java" />
-    <entry file="jar://$PROJECT_DIR$/.lift/algs4.jar!/edu/princeton/cs/algs4/StdIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="520" column="41" selection-start-line="520" selection-start-column="27" selection-end-line="520" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercicio_3_2_31/PerfectBalance.java" />
     <entry file="file://$PROJECT_DIR$/exercicio_3_2_31/BinarySearchTree.java" />
     <entry file="file://$PROJECT_DIR$/exercicio_3_2_31/Certification.java" />
@@ -773,16 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercicio_4_4_8/Exercise8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercicio_5_3_11/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -841,27 +830,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/NYC.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rome99.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Prova3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercicio_4_3_43/Teste_BoruvkasMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="82" column="41" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
+        <state relative-caret-position="721">
+          <caret line="100" column="52" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="100" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/Constants.java">
+    <entry file="jar://$PROJECT_DIR$/.lift/algs4.jar!/edu/princeton/cs/algs4/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+        <state relative-caret-position="298">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/.lift/algs4.jar!/edu/princeton/cs/algs4/GraphGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercicio_4_4_8/Exercise8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

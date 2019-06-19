@@ -1,9 +1,11 @@
 package exercicio_4_4_8;
 
 import edu.princeton.cs.algs4.DijkstraSP;
-import edu.princeton.cs.algs4.DirectedEdge;
 import edu.princeton.cs.algs4.EdgeWeightedDigraph;
+import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.Stopwatch;
+import util.Constants;
 
 public class Exercise8 {
 
@@ -24,26 +26,24 @@ public class Exercise8 {
     }
 
     public static void main(String[] args) {
+        Stopwatch stopwatchBuild = new Stopwatch();
+        String filePath = Constants.FILES_PATH + args[0];
+        In arquivo = new In(filePath);
+
         EdgeWeightedDigraph edgeWeightedDigraph = new EdgeWeightedDigraph(8);
-        edgeWeightedDigraph.addEdge(new DirectedEdge(4, 5, 0.35));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(5, 4, 0.35));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(4, 7, 0.37));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(5, 7, 0.28));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(7, 5, 0.28));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(5, 1, 0.32));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(0, 4, 0.38));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(0, 2, 0.26));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(7, 3, 0.39));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(1, 3, 0.29));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(2, 7, 0.34));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(6, 2, 0.40));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(3, 6, 0.52));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(6, 0, 0.58));
-        edgeWeightedDigraph.addEdge(new DirectedEdge(6, 4, 0.93));
+        StdOut.println();
+        StdOut.printf("Tempo total para construir: %.3f segundos\n",
+                      stopwatchBuild.elapsedTime());
+        StdOut.println();
+        StdOut.println();
 
+        Stopwatch stopwatchDiametro = new Stopwatch();
         double diameter = new Exercise8().findDiameter(edgeWeightedDigraph);
+        StdOut.println("Diametro: " + diameter);
+        StdOut.printf("Tempo total para achar o diametro: %.3f segundos\n",
+                      stopwatchDiametro.elapsedTime());
 
-        StdOut.println("Diameter: " + diameter + " Expected: 1.89");
+
     }
 
 }
