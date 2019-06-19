@@ -5,7 +5,7 @@ package util;
  */
 public class Constants {
 
-    public static final String FILES_PATH = "/home/ufms/projetos/analog-doutorado/data/";
+    public static final String FILES_PATH = "/home/higornucci/projetos/analog-doutorado/data/";
     public static final String TALE_OF_TWO_CITIES_FILE = "tale_of_two_cities.txt";
     public static final String SURNAMES_CSV_FILE = "surnames.csv";
     public static final String SDSS_CSV_FILE = "sdss174052.csv";

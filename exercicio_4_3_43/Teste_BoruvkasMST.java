@@ -4,9 +4,7 @@ import edu.princeton.cs.algs4.Edge;
 import edu.princeton.cs.algs4.EdgeWeightedGraph;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.Queue;
-import edu.princeton.cs.algs4.SeparateChainingHashST;
 import edu.princeton.cs.algs4.StdOut;
-import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.Stopwatch;
 import util.Constants;
 
@@ -81,38 +79,20 @@ public class Teste_BoruvkasMST {
     }
 
     public static void main(String[] args) {
-        Stopwatch stopwatch = new Stopwatch();
+        Stopwatch stopwatchBuild = new Stopwatch();
         String filePath = Constants.FILES_PATH + args[0];
-        In teste = new In(filePath);
-        String[] keys = teste.readAllStrings();
-        int n = keys.length;
-        StdRandom.shuffle(keys);
+        In arquivo = new In(filePath);
 
-        SeparateChainingHashST<String, Integer> hashST = new SeparateChainingHashST<String, Integer>();
-        for (int i = 0; i < n; i++)
-            hashST.put(keys[i], i);
-        StdOut.println("Tempo total para construir a árvore: " + stopwatch.elapsedTime() + " segundos.");
-        EdgeWeightedGraph edgeWeightedGraph = new EdgeWeightedGraph(5);
-        edgeWeightedGraph.addEdge(new Edge(0, 1, 0.42));
-        edgeWeightedGraph.addEdge(new Edge(0, 3, 0.5));
-        edgeWeightedGraph.addEdge(new Edge(1, 2, 0.12));
-        edgeWeightedGraph.addEdge(new Edge(1, 4, 0.91));
-        edgeWeightedGraph.addEdge(new Edge(2, 3, 0.72));
-        edgeWeightedGraph.addEdge(new Edge(3, 4, 0.8));
-        edgeWeightedGraph.addEdge(new Edge(3, 4, 0.82));
-        edgeWeightedGraph.addEdge(new Edge(4, 4, 0.1));
+        EdgeWeightedGraph edgeWeightedGraph = new EdgeWeightedGraph(arquivo);
+        StdOut.printf("Tempo total para construir: %.3f segundos", stopwatchBuild.elapsedTime());
 
+        Stopwatch stopwatchEdges = new Stopwatch();
         Teste_BoruvkasMST.BoruvkaMST boruvkaMST =
                 new Teste_BoruvkasMST().new BoruvkaMST(edgeWeightedGraph);
         for(Edge edge : boruvkaMST.edges()) {
             StdOut.println(edge);
         }
-
-        StdOut.println("\nExpected:\n" +
-                               "0-1 0.42000\n" +
-                               "1-2 0.12000\n" +
-                               "0-3 0.50000\n" +
-                               "3-4 0.80000");
+        StdOut.printf("Tempo total para construir vertices: %.3f segundos", stopwatchEdges.elapsedTime());
     }
 
 }
