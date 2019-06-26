@@ -4,15 +4,32 @@
     <bookmark url="file://$PROJECT_DIR$/exercicio_3_4_05/Exercicio05.java" line="39" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Resolução do exercício 3.5.13 e inclusão de dataset de misspelling words">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Exercicios para o trabalho final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_3_1_29/BinarySearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_3_1_29/BinarySearchST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_3_3_39/RedBlackBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_3_3_39/RedBlackBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_4_3_43/BoruvkaMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_4_3_43/BoruvkaMST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_5_5/Huffman.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_5_5/Huffman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_5_5/LZW.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_5_5/LZW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/Exec6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/TomSawyer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/aesop.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/amendments.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/bible.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/bush-kerry1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/bush-kerry2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/bush-kerry3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/chromosome11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/ecoli.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/lilwomen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/magna-carta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/manifesto.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/mobydick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/muchado.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/obama-mccain1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/obama-mccain2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/obama-mccain3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/pi-1million.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/tale.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/war+peace.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/comprimidos/world192.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/grafico.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_exe/run.sh" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/lift/" />
@@ -38,44 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Prova3.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercicio_5_5/Huffman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-884">
-              <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/final_exe/Exec6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="33" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercicio_5_5/LZW.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -160,7 +144,6 @@
         <option value="$PROJECT_DIR$/exercicio_5_3_11/Queue.java" />
         <option value="$PROJECT_DIR$/exercicio_5_3_11/BoyerMoore.java" />
         <option value="$PROJECT_DIR$/exercicio_5_3_11/Exercise38_BoyerMooreForRandomText.java" />
-        <option value="$PROJECT_DIR$/exercicio_5_5/Huffman.java" />
         <option value="$PROJECT_DIR$/exercicio_5_3_15/Manacher.java" />
         <option value="$PROJECT_DIR$/util/Constants.java" />
         <option value="$PROJECT_DIR$/exercicio_4_3_43/Teste_BoruvkasMST.java" />
@@ -168,16 +151,17 @@
         <option value="$PROJECT_DIR$/exercicio_5_3_11/Teste_BoyerMoore.java" />
         <option value="$PROJECT_DIR$/exercicio_5_3_15/Teste_Manacher.java" />
         <option value="$PROJECT_DIR$/final/Exec6.java" />
-        <option value="$PROJECT_DIR$/final_exe/Exec6.java" />
         <option value="$PROJECT_DIR$/exercicio_5_5/LZW.java" />
+        <option value="$PROJECT_DIR$/exercicio_5_5/Huffman.java" />
+        <option value="$PROJECT_DIR$/final_exe/Exec6.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="122" />
-    <option name="width" value="1026" />
-    <option name="height" value="554" />
+    <option name="x" value="1700" />
+    <option name="y" value="30" />
+    <option name="width" value="1717" />
+    <option name="height" value="938" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -192,7 +176,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,6 +197,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,6 +356,8 @@
       <workItem from="1560941999267" duration="17130000" />
       <workItem from="1560972548415" duration="3084000" />
       <workItem from="1560978688193" duration="596000" />
+      <workItem from="1561465831852" duration="36000" />
+      <workItem from="1561467077314" duration="2276000" />
     </task>
     <task id="LOCAL-00001" summary="Exercício 3.3.39">
       <created>1558463534334</created>
@@ -457,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558966542482</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Exercicios para o trabalho final">
+      <created>1561464706260</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561464706260</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71976000" />
+    <option name="totallyTimeSpent" value="75390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,9 +467,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1600" y="30" width="1920" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11419424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11632871" />
       <window_info id="Structure" order="1" show_stripe_button="false" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" show_stripe_button="false" side_tool="true" />
@@ -492,10 +484,10 @@
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" weight="0.32904148" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4994664" weight="0.32899022" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50160086" side_tool="true" weight="0.3295583" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32676518" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4994664" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50160086" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3257329" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -522,7 +514,8 @@
     <MESSAGE value="Inclusão de novas base de dados" />
     <MESSAGE value="Resolução do exercício 3.3.39" />
     <MESSAGE value="Resolução do exercício 3.5.13 e inclusão de dataset de misspelling words" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolução do exercício 3.5.13 e inclusão de dataset de misspelling words" />
+    <MESSAGE value="Exercicios para o trabalho final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicios para o trabalho final" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -544,10 +537,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exercicio_3_5_13/misspeling.txt" />
-    <entry file="file://$PROJECT_DIR$/data/tinyFN.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/16Kints.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -862,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Prova3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercicio_5_3_15/Teste_Manacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -879,30 +861,57 @@
     <entry file="file://$PROJECT_DIR$/final_exe/comprimidos/aesop.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercicio_5_5/Huffman.java">
+    <entry file="file://$PROJECT_DIR$/final_exe/grafico.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-884">
-          <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="207" lean-forward="true" selection-start-line="11" selection-start-column="207" selection-end-line="11" selection-end-column="207" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/final_exe/Exec6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="405">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final_exe/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercicio_5_5/LZW.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="495">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercicio_5_5/Huffman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2428#2429#0" expanded="true" />
+            <element signature="e#2480#2481#0" expanded="true" />
+            <element signature="e#4077#4083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prova3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
